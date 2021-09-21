@@ -1,0 +1,39 @@
+html{
+    height: 100%;
+    background: rgb(5,63,92);
+    background: linear-gradient(180deg, rgba(5,63,92,1) 0%, rgba(34,123,162,1) 100%, rgba(0,212,255,1) 100%); 
+}
+
+h1{
+    color:#9FE7F5;
+    font-size: 5rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+
+#message{
+    width: 50vw;
+    background: ghostwhite;
+    font-family: 'Libre Baskerville', serif;    
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+#star-button{
+    cursor: pointer;
+    background-color: #F7AD19;
+    border-radius: 0;
+    padding: .5em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    #message{
+        width: 80vw;
+    }
+  }
